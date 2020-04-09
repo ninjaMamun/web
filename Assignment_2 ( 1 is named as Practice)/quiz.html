@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="javascript/question-generator.js"></script>
+    <script type="text/javascript" src="javascript/quiz.js"></script>
+    <title>Simple Html Design</title>
+  </head>
+
+  <body onload="generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton)">
+    <div class="container">
+      <div class="header">
+        <img id="ban" src="image/quiz-banner.jpg" alt="hobbies_banner">
+
+      </div>
+      <div class="content">
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="favourite.html">Favourite</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+              <li><a href="converter.html">Converter</a></li>
+            <li><a class="current" href="quiz.html">Quiz</a></li>
+            <li><a href="links.html">Links</a></li>
+          </ul>
+        </div>
+
+        <div class="right-part">
+
+          <h1 class="paragraph" style="text-align:center">
+            Quick Quiz
+          </h1>
+
+        <form id="quiz-wrap"></form>
+
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright &copy; Shahriyar Mamun | All Rights Reserved
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="javascript/convert.js"></script>
+    <title>Simple Html Design</title>
+  </head>
+
+  <body >
+    <div class="container">
+      <div class="header">
+        <img id="ban" src="image/converter-banner.png" alt="converter_banner">
+
+      </div>
+      <div class="content">
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="favourite.html">Favourite</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a class="current" href="converter.html">Converter</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="links.html">Links</a></li>
+          </ul>
+        </div>
+
+        <div class="right-part">
+
+
+            <h2 style="margin-top:50px;text-align:center;text-decoration: underline;">
+              Currency Converter
+            </h2>
+            <marquee style="width:250px;background: lightgreen;margin-left:448px;">Convert Currency in Real Time</marquee>
+
+          <form name="converter">
+
+            <table id="converter">
+              <tr>
+                <td >BDT: </td><td><input type="text" name="bdt" onChange="bdtConverter()" /></td>
+              </tr>
+              <tr>
+                <td >Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+              </tr>
+              <tr>
+                <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+              </tr>
+              <tr>
+                <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+              </tr>
+              <tr>
+                <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+              </tr>
+            </table>
+          </form>
+
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright &copy; Shahriyar Mamun | All Rights Reserved
+        </p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
